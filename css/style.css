@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* --------------------------------header----------------------------------- */
+.head_container{
+    background-color: rgba(131, 121, 121, 0.384);
+    padding: 14px;
+}
+.head_aa{
+    text-decoration: none;
+    margin-left: 1%;
+    color: rgb(4, 153, 252);
+    font-size: 22px;
+}
+.head_aa:hover{
+  color: blue;
+  text-decoration: underline;
+}
+/* ---------------- */
+ul{
+  list-style: none;
+}
+li{
+  list-style: none;
+}
+.carts_products{
+  display: none;
+}
+.logout{
+  display: none;
+}
+.linkss{
+  display: flex;
+}
+.iinknk{
+  text-decoration: none;
+  color: rgb(4, 153, 252);
+  font-size: 22px;
+  margin-top: 10px;
+}
+#user{
+  text-decoration: none;
+  color: rgb(4, 153, 252);
+  font-size: 22px;
+  margin-right:400px;
+}
+.kkkkkkkkk{
+  color: rgb(4, 153, 252);
+  font-size: 22px;
+}
+.carrrt{
+  margin-top: 20px;
+  color: rgb(4, 153, 252);
+  font-size: 22px;
+}
+.ppppppp{
+  color: rgb(4, 153, 252);
+  margin-right: 10px;
+}
+/* --------------------------------------------------------------------------------------------- */
+.topnav {
+  overflow: hidden;
+  background-color: rgba(131, 121, 121, 0.384);
+  padding: 10px;
+  width: 100%;}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: rgb(4, 153, 252);
+  padding: 10px 12px;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+.topnav a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 1000px) {
+  .topnav .shopping_cart{display: none;}
+  .topnav #counter{display: none;}
+  .topnav .iinknk{display: none;}
+  .topnav a:not(.head_aa) {display: none;}
+  .topnav a.icon {
+    float:right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display:block;
+  }
+  .topnav.responsive .shopping_cart {
+    float: none;
+    display: block;
+  }
+  .topnav.responsive  #counter{
+    display: block;
+  }
+  .topnav.responsive .iinknk {
+    float: none;
+    display: block;
+    margin-left: -40px;
+  }
+  #user{
+    margin-right:0px;
+  }
+  .head_parent{
+    display: flex;
+    flex-direction: column;    
+  }
+}
+/* -----------------login and register---------------------------- */
+.sec_form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    width: 70%;
+    background-color: rgba(128, 128, 128, 0.062);
+    padding: 20px;
+}
+.main_input{
+    width: 100%;
+    display: block;
+    margin: 8px 0px;
+    border: 1px solid #ddd ;
+    padding: 6px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 5px;
+}
+.main_input:focus{
+    outline: 2px solid  rgb(4, 153, 252);
+}
+.oooooo{
+    margin: 9px 0px;
+   background-color: rgb(4, 153, 252);
+   padding: 7px;
+   border-radius: 6px;
+   color: white;
+   border: none;
+}
+/* -----------------------------main-------------------------------------- */
+.main_container{
+    margin-top: 20px;
+}
+#search{
+    width: 43%;
+    height: 30px;
+    margin-left: 5%;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    outline: 0;
+}
+.searchh{
+  width: 43%;
+  margin-left: 0.6%;
+  outline: 0;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  padding: 0px 10px;
+}
+.btnnnn{
+  margin-left: 0.6%;
+  background-color: rgb(4, 153, 252);
+  color: white;
+  border: 0;
+  border-radius: 10px;
+  padding: 3px;
+}
+
+/* ----------------------section_1---------------------------------------- */
+.pa_sec_1_content{
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    height: 100%;
+    margin-bottom: 10px;
+    margin-top:6px ;
+}
+.pa_sec_1_content:hover{
+  transform: translateY(-10px);
+  transition: 1s;
+  outline: 2px solid rgb(4, 153, 252) ;
+}
+.sec_1_imaggggs{
+    width: 90%;
+    height: 300px;
+    margin-left: 5%;
+}
+.sec_1_h555{
+    margin-left: 5%;
+    margin-top: 10px;
+}
+#check{
+  margin-left: 5%;
+}
+.iii{
+  margin-right: 30px;
+}
+/* ------------------------------- */
+.carttttttttttt{
+  margin: 40px 0px;
+  text-align: center;
+  color: rgb(4, 153, 252);
+}
+.ii{
+  margin-left: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

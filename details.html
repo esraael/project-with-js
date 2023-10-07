@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF_8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>online_shopping</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/all.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="js/bootstrap.bundle.min.js">
+    </head>
+    <body>
+        <!-- ----------------------------header---------------------------------------------- -->
+        <header>
+            <div class="topnav" id="myTopnav">
+
+                <div class="d-flex justify-content-between head_parent">
+                    <a href="index.html" class="head_aa"><b>Online Shopping</b></a>
+                </div>
+
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                  </a>
+                </div>
+                
+        </header>
+        <!-- --------------------------------------main------------------------------ -->
+        <h2 class="carttttttttttt"> Your Product cart</h2>
+        <div class="container ">
+            <table class="table tab">
+                <thead>
+                    <tr class="text-center">
+                        <th class="text-left">Product</th>
+                        <th>PRICE</th>
+                        <th>QUANTITY</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody class="Products-items">
+                    
+                </tbody>
+                <tfoot class="display">
+
+                </tfoot>
+            </table>
+        </div>
+        <hr>
+        <h2 class="carttttttttttt">Favourite</h2>
+        <section class="container pppp">            
+        <section class="swiper">
+            <div class=" row swiper-wrapper" >                
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-scrollbar"></div>
+        </section>
+
+        </section>
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+        <!-- swiper js code only -->
+        <script>
+            const swiper = new Swiper('.swiper', {
+        loop: true,
+        pagination: {
+            el: '.swiper-pagination',
+        },
+
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        // Default parameters
+        slidesPerView: 1,
+        spaceBetween: 10,
+        // Responsive breakpoints
+        breakpoints: {
+            // when window width is >= 320px
+            320: {
+            slidesPerView: 2,
+            spaceBetween: 20
+            },
+            // when window width is >= 480px
+            480: {
+            slidesPerView: 3,
+            spaceBetween: 30
+            },
+            // when window width is >= 640px
+            640: {
+            slidesPerView: 4,
+            spaceBetween: 40
+            }
+        }
+});
+        </script>
+
+
+
+
+
+
+        <script src="js/cart.js"></script>
+        </body>
+        </html>
